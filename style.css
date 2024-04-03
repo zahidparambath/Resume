@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 20px;
+    background-color: #F0EDE5;
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+
+h1{
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+#social_media{
+    display: flex;
+    justify-content: center;
+}
+
+#address{
+    display: flex;
+    justify-content: center;
+}
+
+#projects{
+     margin-top: 50px;
+}
+
+.education_details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sub_heading{
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333
+}
+
+.italian{
+    font-style: italic;
+}
+
+.project_details{
+    display: grid;
+}
+
+#extra{
+    margin-top: 50px;
+}
+
+.extra_details{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#skills{
+    margin-top: 50px;
+}
